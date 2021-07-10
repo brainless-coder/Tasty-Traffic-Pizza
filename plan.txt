@@ -4,8 +4,11 @@
     --> ejs express-ejs-layouts
     --> nodemon (Dev Dependency)
 ==> Create Express server - server.js file
+==> Git setup and first commit
+==> Install Laravel Mix
+    --> Setup JS and SCSS
+==> Install tailwind CSS
 ==> Create Home page usig HTML and CSS
-    --> Include tailwind CSS
 ==> Create cart page
     --> Order Summary section
     --> Empty cart section
@@ -13,3 +16,5 @@
 ==> Create Orders view with table for customer and admin
 ==> Create orders single page with status
 ==> Create Login page with route
+==> Create register page with route
+==> Build register CRUD
