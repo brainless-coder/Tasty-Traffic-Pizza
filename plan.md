@@ -12,13 +12,15 @@
 - [x] Create cart page
     - Order Summary section
     - Empty cart section
-- [ ] Move routes to routes files
-- [ ] Create dedicated controllers
+- [x] Move routes to routes files
+- [x] Create dedicated controllers
 - [ ] Add to cart functionality
-  - Connect to mongo db
-  - use connect-mongo for session store
-    - install dependencies
-      - mongoose, express-session, connect-mongo, dotenv
+  - [x] Fetch all pizzas from DB and show on homepage
+  - [x] create menu model and put dummy data
+    - Connect to mongo db
+    - use connect-mongo for session store
+      - install dependencies
+        - mongoose, express-session, connect-mongo, dotenv
   - axios to send ajax request
   - install notification library npm i noty https://ned.im/noty/#/
 - [ ] Create order controller and link it in server.js
