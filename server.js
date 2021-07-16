@@ -44,6 +44,15 @@ app.use(flash());
 
 // Assets
 app.use(express.static('public'));
+app.use(express.json())
+
+// Global middleware
+app.use((req, res, next) => {
+    res.locals.session = req.session;
+    // agar apan ye next() waale callback ko call nhi karenge to apna request complete nhi hoga
+    // and browser me wo gol gol ghumta rahega
+    next();
+});
 
 // Set Template Engine
 app.use(expressLayouts);

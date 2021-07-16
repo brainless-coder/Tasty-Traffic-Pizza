@@ -14,7 +14,7 @@
     - Empty cart section
 - [x] Move routes to routes files
 - [x] Create dedicated controllers
-- [ ] Add to cart functionality
+- [x] Add to cart functionality
   - [x] Fetch all pizzas from DB and show on homepage
   - [x] create menu model and put dummy data
     - Connect to mongo db
