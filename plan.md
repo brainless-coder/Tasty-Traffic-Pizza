@@ -23,9 +23,22 @@
         - mongoose, express-session, connect-mongo, dotenv
   - axios to send ajax request
   - install notification library npm i noty https://ned.im/noty/#/
-- [ ] Create order controller and link it in server.js
+- [x] Create Login page with route
+- [x] Create register page with route
+- [x] Build register CRUD
+  - dependencies express-flash express-session dot-env
+  - status code article https://www.restapitutorial.com/httpstatuscodes.html
+- [x] Build login using passport
+  - dependencies passport passport-local express-session
+- [ ] Create Order controller and link it in server.js
 - [ ] Create Orders view with table for customer and admin
-- [ ] Create orders single page with status
-- [ ] Create Login page with route
-- [ ] Create register page with route
-- [ ] Build register CRUD
+- [ ] Create Orders single page with status
+- [ ] Place order functionality
+- [ ] Show all my orders on customers orders page
+- [ ] Show orders on admin orders page
+- [ ] Order tracker
+  - dependency: moment
+- [ ] Socket Connection
+  - dependencies: socket.io
+- [ ] Build project for deployment
+- [ ] Deploy project on live server
