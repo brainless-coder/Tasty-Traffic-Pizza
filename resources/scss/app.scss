@@ -82,3 +82,9 @@ section.login {
     border-radius: 50px !important;
     padding-left: 8px !important;
 }
+
+section.orders {
+    a.link{
+        color: $primary;
+    }
+}
