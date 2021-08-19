@@ -30,15 +30,15 @@
   - status code article https://www.restapitutorial.com/httpstatuscodes.html
 - [x] Build login using passport
   - dependencies passport passport-local express-session
-- [ ] Create Order controller and link it in server.js
-- [ ] Create Orders view with table for customer and admin
+- [x] Create Order controller and link it in server.js
+- [x] Create Orders view with table for customer and admin
+- [x] Place order functionality
+- [x] Show all my orders on customers orders page
+- [x] Show orders on admin orders page
 - [ ] Create Orders single page with status
-- [ ] Place order functionality
-- [ ] Show all my orders on customers orders page
-- [ ] Show orders on admin orders page
 - [ ] Order tracker
   - dependency: moment
-- [ ] Socket Connection
-  - dependencies: socket.io
+  - [ ] Socket Connection
+    - dependencies: socket.io
 - [ ] Build project for deployment
 - [ ] Deploy project on live server
