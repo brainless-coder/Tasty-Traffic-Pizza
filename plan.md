@@ -35,10 +35,10 @@
 - [x] Place order functionality
 - [x] Show all my orders on customers orders page
 - [x] Show orders on admin orders page
-- [ ] Create Orders single page with status
-- [ ] Order tracker
-  - dependency: moment
-  - [ ] Socket Connection
+- [x] Change order status
+- [x] Create Orders single page with status
+- [x] Order tracker
+  - [x] Socket Connection
     - dependencies: socket.io
 - [ ] Build project for deployment
 - [ ] Deploy project on live server
